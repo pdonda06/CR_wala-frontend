@@ -1,5 +1,9 @@
 .testimonials {
+<<<<<<< HEAD
   background-image: url("/img/testimonialsbg.png"); /* Replace with your actual image path */
+=======
+  background-image: url("../../public/img/testimonialsbg.png"); /* Replace with your actual image path */
+>>>>>>> 4070010187d317fb628c859f1435ce487693b8fe
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -10,7 +14,10 @@
 }
 
 .testimonials h2 {
+<<<<<<< HEAD
   text-align: center;
+=======
+>>>>>>> 4070010187d317fb628c859f1435ce487693b8fe
   font-size: 2rem;
   margin-bottom: 150px;
 }

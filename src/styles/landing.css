@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .landing {
   text-align: center;
 }
@@ -24,17 +25,59 @@
   text-align: center;
 }
 
+=======
+
+.landing {
+  text-align: center;
+  /* padding: 20px; */
+}
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: linear-gradient(to right, #000000, #000000);
+  color: white;
+  padding: 50px 20px;
+}
+
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  gap: 20px;
+  max-width: 80%;
+  margin: auto;
+}
+
+
+>>>>>>> 4070010187d317fb628c859f1435ce487693b8fe
 .landimg {
   width: 100%;
   max-width: 400px;
   height: auto;
 }
 
+<<<<<<< HEAD
 .staticdata {
   width: 100%;
   text-align: center;
 }
 
+=======
+
+.staticdata{
+  width: 100%;
+  /* max-width: 300px; */
+}
+
+
+
+>>>>>>> 4070010187d317fb628c859f1435ce487693b8fe
 .hero-content {
   max-width: 500px;
 }
@@ -49,9 +92,18 @@
   padding-top: 10px;
 }
 
+<<<<<<< HEAD
 .hero-button {
   margin-top: 20px;
   text-align: center;
+=======
+
+.hero-button {
+  width: 100%;
+  text-align: center;
+  margin-top: -35px;
+  padding-left: 250px;
+>>>>>>> 4070010187d317fb628c859f1435ce487693b8fe
 }
 
 .hero-button button {
@@ -70,6 +122,7 @@
 }
 
 .services {
+<<<<<<< HEAD
   padding: 40px 20px;
   font-family: Arial, sans-serif;
   background: #000000;
@@ -77,19 +130,40 @@
 
 .services h2, .services p {
   text-align: center;
+=======
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.services h2 {
+  color: #ffffff;
+}
+.services p {
+>>>>>>> 4070010187d317fb628c859f1435ce487693b8fe
   color: #ffffff;
 }
 
 .service-list {
+<<<<<<< HEAD
   width: 100%;
   max-width: 800px;
   margin: auto;
+=======
+  width: 60%;
+  margin: auto;
+  text-align: left;
+>>>>>>> 4070010187d317fb628c859f1435ce487693b8fe
 }
 
 .service-item {
   background: #ffffff;
   border: 1px solid #ddd;
+<<<<<<< HEAD
   padding: 15px;
+=======
+  padding: 10px;
+>>>>>>> 4070010187d317fb628c859f1435ce487693b8fe
   margin-bottom: 10px;
   border-radius: 5px;
   cursor: pointer;
@@ -103,15 +177,56 @@
 
 .dropdown {
   font-size: 16px;
+<<<<<<< HEAD
+=======
+  cursor: pointer;
+>>>>>>> 4070010187d317fb628c859f1435ce487693b8fe
 }
 
 .service-description {
   padding: 10px;
   margin-top: 5px;
+<<<<<<< HEAD
   background: #f4f4f4;
   border-top: 1px solid #ddd;
 }
 
+=======
+  background: #fff;
+  border-top: 1px solid #ddd;
+}
+
+
+
+@media (max-width: 768px) {
+  .head {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .hero-content {
+      text-align: center;
+  }
+
+  .hero h1 {
+      font-size: 1.8rem;
+  }
+
+  .services ul {
+      flex-direction: column;
+  }
+
+  .services li {
+      flex: 1 1 100%;
+  }
+
+  .hero-button button {
+      width: 100%;
+  }
+}
+
+/* Consultation Form Styles */
+>>>>>>> 4070010187d317fb628c859f1435ce487693b8fe
 .consultation-form {
   background-color: #fff;
   padding: 20px;
@@ -119,24 +234,59 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 500px;
   margin: 20px auto;
+<<<<<<< HEAD
   text-align: center;
+=======
+}
+
+.consultation-form h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.consultation-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+>>>>>>> 4070010187d317fb628c859f1435ce487693b8fe
 }
 
 .consultation-form input,
 .consultation-form textarea {
   padding: 10px;
+<<<<<<< HEAD
   width: 100%;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+=======
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.consultation-form input:focus,
+.consultation-form textarea:focus {
+  border-color: #007bff;
+>>>>>>> 4070010187d317fb628c859f1435ce487693b8fe
 }
 
 .consultation-form button {
   background-color: #007bff;
   color: white;
+<<<<<<< HEAD
   border: none;
   padding: 12px;
   border-radius: 5px;
+=======
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+>>>>>>> 4070010187d317fb628c859f1435ce487693b8fe
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -145,6 +295,7 @@
   background-color: #0056b3;
 }
 
+<<<<<<< HEAD
 @media (max-width: 768px) {
   .head {
     flex-direction: column;
@@ -175,5 +326,33 @@
 
   .hero-button button {
     font-size: 0.9rem;
+=======
+.consultation-form button[type="button"] {
+  background-color: #f44336;
+  margin-top: 10px;
+}
+
+.consultation-form button[type="button"]:hover {
+  background-color: #e53935;
+}
+
+.consultation-form input::placeholder,
+.consultation-form textarea::placeholder {
+  color: #777;
+}
+
+
+@media (max-width: 480px) {
+  .hero h1 {
+      font-size: 1.5rem;
+  }
+
+  .hero p {
+      font-size: 1rem;
+  }
+
+  .hero-button button {
+      font-size: 0.9rem;
+>>>>>>> 4070010187d317fb628c859f1435ce487693b8fe
   }
 }
